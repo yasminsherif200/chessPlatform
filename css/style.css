@@ -1,0 +1,168 @@
+:root {
+    --orange: #FFBF00;
+    --brown: #6D5000;
+    --light-brown: #504532;
+    --light-bg: #FFEFD5;
+    --brown-border: #D4C5AB;
+    --bg-dark: #191C1D;
+    --bg-off-white: #E7E8E9;
+    --bg-white: #FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: var(--bg-white);
+}
+
+.navbar-brand {
+    color: var(--bg-dark);
+    font-weight: bold;
+}
+
+.nav li a {
+    color: var(--light-brown);
+    border-bottom: 2px solid var(--bg-white);
+}
+
+.nav li a:hover {
+    color: var(--brown);
+    border-bottom: 2px solid var(--brown);
+}
+
+.part1 {
+    background-image: url("/imgs/Container.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.sec-1 {
+    padding: 150px 0;
+}
+
+.btn-orange {
+    background-color: var(--orange);
+    color: var(--light-brown);
+    border-radius: 30px;
+}
+
+.btn-orange:hover {
+    box-shadow: 0 0 10px var(--orange);
+}
+
+.btn-outline-brown {
+    border: 2px solid var(--brown-border);
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+.btn-outline-brown:hover {
+    box-shadow: 0 0 10px var(--brown-border);
+}
+
+.describe {
+    color: var(--light-brown);
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+span {
+    color: var(--brown);
+}
+
+.sec-2 {
+    background-color: var(--bg-white);
+}
+
+.line {
+    background-color: var(--orange);
+    padding: 3px;
+    margin: 20px auto;
+    width: 90px;    
+    border-radius: 30px;
+}
+
+.whys {
+    background-color: var(--bg-off-white);
+    border: 2px solid var(--brown-border);
+    padding: 20px;
+    margin: 45px;
+    border-radius: 10px;
+}
+
+svg {
+    font-weight: bold;
+}
+
+.cap,
+.world,
+.cup {
+    background-color: var(--light-bg);
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.row p {
+    color: var(--light-brown);
+}
+
+.part3 {
+    background-color: var(--bg-off-white);
+}
+
+.btn-brown {
+    color: var(--brown);
+    border: 3px solid var(--bg-off-white);
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.btn-brown:hover {
+    border-bottom: 3px solid var(--orange);
+}
+
+.sec-3 p {
+    color: var(--brown);
+}
+
+.card {
+    margin: 45px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.card-img-top {
+    width: 100%;
+    padding-top: 15px;
+}
+
+.btn-register {
+    background-color: transparent;
+    border: 2px solid var(--brown-border);
+    border-radius: 3px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.btn-register:hover {
+    box-shadow: 0 0 10px var(--brown-border);
+}
+
+footer {
+    color: var(--brown);
+}
+
+.contact {
+    color: var(--brown);
+}
+
+.contact:hover {
+    text-decoration: none;
+    color: var(--bg-dark);
+}
