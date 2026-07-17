@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Contact</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="navbar-brand">Knight's Circle</a>
+            <ul class="nav">
+                <li class="nav-item"><a href="index.html" class="nav-link sm">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="btn btn-orange">Join Now</button>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="container">
+            <div class="c-form">
+                <h1>Connect with the Circle.</h1>
+                <p>
+                    For inquiries regarding membership, grandmaster sessions, or <br>
+                    tournament hosting, please reach out to our administration.
+                </p>
+                <form class="text-left" action="https://formspree.io/f/xlgyvyzy" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Yasmin Sherif">
+                    </div>
+                    <div class="form-group">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="yasmin@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" placeholder="Let's build something..."></textarea>
+                    </div>
+                    <button type="submit" class="cntct-btn btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="py-4">
+        <div class="container d-flex justify-content-between align-items-center flex-wrap">
+            <div class="footer-name">Knight's Circle</div>
+            <div class="footer-copyright">© 2026 Knight's Circle. All rights reserved.</div>
+            <div class="footer-links">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                    <path d="M15 15L12 12H4.5C4.0875 12 3.73437 11.8531 3.44062 11.5594C3.14687 11.2656 3 10.9125 3 10.5V9.75H11.25C11.6625 9.75 12.0156 9.60312 12.3094 9.30937C12.6031 9.01562 12.75 8.6625 12.75 8.25V3H13.5C13.9125 3 14.2656 3.14687 14.5594 3.44062C14.8531 3.73437 15 4.0875 15 4.5V15V15M1.5 7.63125L2.38125 6.75H9.75V6.75V6.75V1.5V1.5V1.5H1.5V1.5V1.5V7.63125V7.63125M0 11.25V1.5C0 1.0875 0.146875 0.734375 0.440625 0.440625C0.734375 0.146875 1.0875 0 1.5 0H9.75C10.1625 0 10.5156 0.146875 10.8094 0.440625C11.1031 0.734375 11.25 1.0875 11.25 1.5V6.75C11.25 7.1625 11.1031 7.51562 10.8094 7.80937C10.5156 8.10312 10.1625 8.25 9.75 8.25H3L0 11.25V11.25M1.5 6.75V1.5V1.5V1.5V1.5V1.5V1.5V6.75V6.75V6.75V6.75V6.75V6.75" fill="#191C1D"/>
+                </svg>
+                <a href="" class="contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
