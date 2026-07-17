@@ -1,0 +1,49 @@
+body {
+    background-color: var(--bg-off-white);
+}
+
+.navbar {
+    background-color: var(--bg-white);
+}
+
+.calender {
+    margin: 100px;
+}
+
+.date {
+    font-weight: bold;
+}
+
+.dates {
+    background-color: var(--bg-white);
+    margin: 5px;
+    padding: 30px 0;
+    border-radius: 30px;
+}
+
+.dates .numbers,
+.dates .words {
+    font-weight: bold;
+    color: var(--brown);
+    margin: 1px;
+}
+
+.dates .numbers {
+    font-size:x-large;
+}
+
+.dates .words {
+    font-size: x-small;
+}
+
+.numbers span {
+    color: var(--bg-dark);
+}
+
+.word-1 {
+    border: 1px solid var( --brown-border);
+}
+
+.word {
+    box-shadow: 0 0 10px var(--light-bg);
+}
