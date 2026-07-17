@@ -47,3 +47,53 @@ body {
 .word {
     box-shadow: 0 0 10px var(--light-bg);
 }
+
+.tournaments-dates {
+    background-color: var(--bg-white);
+    padding: 100px 0;
+}
+
+.tournaments-dates h2 {
+    padding-bottom: 5px;
+}
+
+
+.border-table  {
+    border: 2px solid var( --brown-border);
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.tournaments-dates thead {
+    background-color: var(--bg-off-white);
+    color: var(--brown);
+}
+
+.d-block {
+    display: block;
+}
+
+.d-block p {
+    font-size: x-small;
+    color: var(--brown);
+}
+
+.d-block span {
+    color: var(--bg-dark);
+}
+
+.d-flex span{
+    font-weight: bold;
+}
+
+.location span {
+    font-weight: bold;
+}
+
+.btn {
+    color: var(--brown);
+    background-color: var(--orange);
+    border-radius: 30px;
+    padding: 8px 15px;
+}
+
